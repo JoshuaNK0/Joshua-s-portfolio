@@ -67,8 +67,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 sh
-  cd my-folder
-  git clone https://github.com/ngalamac/Hello-Codegisoft Academy.git
+  cd JOSHUA-S-PORTFOLIO
+  git clone (https://github.com/JoshuaNK0/Joshua-s-portfolio.git)
 
 
 ### Install
@@ -76,7 +76,7 @@ sh
 Install this project with:
 
 sh
-  cd my-folder
+  cd JOSHUA-S-PORTFOLIO
   npm install
 
 
@@ -104,9 +104,9 @@ sh
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Ngala Mac*
+👤 *Joshua Nkere*
 
-- GitHub: [@ngalamac](https://github.com/ngalamac/Hello-Codegisoft Academy.git)
+- GitHub: [@JoshuaNk0](https://github.com/ngalamac/Hello-Codegisoft Academy.git)
 
  FUTURE FEATURES 
 
@@ -125,4 +125,4 @@ I will like to thank Codegisoft Academy and all the students i've collaborated w
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [LICENCE](./LICENSE.md) licensed.

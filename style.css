@@ -69,6 +69,7 @@
     font-size: 25px;
     text-align: center;
     margin: 10px 15px;
+    color: #172b4d;
   }
 
   .social_icons ul {
@@ -161,6 +162,7 @@
     height: 125px;
     gap: 24px;
     text-align: center;
+    color: #3a4a42;
   }
 
   .languages ul {
@@ -174,14 +176,18 @@
     padding: 4px 4px;
     margin-top: 15px;
     border-radius: 5px;
+    color: #3a4a42;
   }
 
   .btn button {
-    margin: 25px 0 15px 100px;
+    margin: 25px 0 15px 90px;
     border: none;
     color: white;
     background-color: #36b37e;
     padding: 7px 10px;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
   }
 
   /* About section */
@@ -190,10 +196,21 @@
     color: #172b4d;
   }
 
+  .left-pic {
+    background-image: url(/assets/images/illustration-\ about\ me-\ mobile.png);
+    position: absolute;
+    top: 215rem;
+    left: 0;
+    width: 100px;
+    height: 500px;
+    background-size: cover;
+  }
+
   .about-paragraph {
     font-size: 25px;
     text-align: center;
     margin: 10px 15px;
+    color: #172b4d;
   }
 
   .about button {
@@ -202,64 +219,71 @@
     color: white;
     background-color: #36b37e;
     padding: 7px 10px;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+  }
+
+  .right-pic {
+    background-image: url(/assets/images/illustration\ 1-\ about\ me-mobile.png);
+    position: absolute;
+    top: 221.5rem;
+    right: 0;
+    width: 80px;
+    height: 110px;
+    background-size: cover;
+  }
+
+  .technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
   }
 
   .tech-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: #ebf0ee;
-    margin: 40px;
-    width: 300px;
+    width: 350px;
     height: 350px;
     border-radius: 8px;
     background-color: #ebf0ee;
+    padding: 0 0 20px 0;
   }
 
   .tech-icon {
-    margin-left: 90px;
-    margin-top: 40px;
+    margin-top: 50px;
+    width: 130px;
+    height: 110px;
   }
 
   .abt-lang {
-    margin: -5px 0 0 30px;
-  }
-
-  .tech-lang ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 15px 10px 0 8px;
-    max-width: 300px;
-  }
-
-  .tech-lang ul li {
-    list-style: none;
-    background-color: white;
-    padding: 7px 10px;
-    margin-bottom: -30px;
-    margin-top: -100px;
-    border-radius: 5px;
-    color: #36b37e;
+    font-size: 25px;
+    margin-bottom: -40px;
   }
 
   .tech-lang1 ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin: 15px 10px 0 8px;
+    gap: 5px;
+    flex-wrap: wrap;
     max-width: 300px;
+    margin: 1px 0 20px 0;
   }
 
   .tech-lang1 ul li {
     list-style: none;
     background-color: white;
-    margin-bottom: -30px;
-    margin-top: -100px;
+    font-size: 20px;
     border-radius: 5px;
     color: #36b37e;
-    max-width: 250px;
+    padding: 5px;
   }
 
   /* contact section */
@@ -294,6 +318,7 @@
   input {
     padding: 7px 10px;
     width: 100%;
+    height: 50px;
     border-radius: 5px;
     border: 1px solid grey;
   }
@@ -320,6 +345,21 @@
     width: 120px;
     height: 50px;
     border-radius: 5px;
+  }
+
+  .email p {
+    font-size: 20px;
+    color: #172b4d;
+  }
+
+  .bottom-image {
+    background-image: url(/assets/images/illustration-contact-form.png);
+    position: absolute;
+    top: 360rem;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
   }
 
   .footer-line p {
