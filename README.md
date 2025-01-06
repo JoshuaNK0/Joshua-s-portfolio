@@ -42,12 +42,15 @@ This is the first technical Codegisoft Academy project it tests more on Git, Git
 - HTML
 - CSS
 - Linters
+- javascript
 
 ### Key Features <a name="key-features"></a>
 
 - *Understanding Git, GitHub and GitHub Workflow*
 - *Configuring Linters*
 - *Creating pull requests and merging*
+- *deployment
+- *popup functions* 
 
 A demo link will be uploaded subsequently.
 
@@ -101,6 +104,7 @@ sh
   gh-pages
   netlify
   vercel
+  github
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -114,7 +118,8 @@ sh
 
 - integration with javascript
 - Adding more html contents
-
+- add more functions 
+- intergret with react js
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
